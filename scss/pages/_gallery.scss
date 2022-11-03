@@ -1,0 +1,47 @@
+
+.gallery_contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 120px;
+    background-color:  #ababae;
+}
+.gallery_contenedor h3 {
+    color: #444141;
+}
+.gallery_contenedor p {
+    color: #444141;
+}
+
+@media (max-width: 992px) {
+    .gallery_contenedor {
+        padding-top: 80px;
+    }
+    .sanpedro_1 {
+        padding-top: 10px;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sanpedro_2 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .puan_1 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery_parrafo_2 {
+        padding-top: 30px;
+    }
+}

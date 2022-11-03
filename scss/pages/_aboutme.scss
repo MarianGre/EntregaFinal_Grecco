@@ -1,0 +1,41 @@
+.philosophy_container {
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.philosophy_container_wrapper {
+    padding-top: 40px;
+    color: #444141;;
+}
+.skill_title {
+    padding-bottom: 20px;
+}
+.skill {
+    padding: 40px;
+    background-color:  #707585;
+}
+.skill_1 {
+    background-color:#CAD2D0;
+    text-align: center;
+    padding-top: 10px;
+}
+.skill_2 {
+    background-color: #C3CBC9;
+    text-align: center;
+    padding-top: 10px;
+}
+.skill_3 {
+    background-color: #BBC3C1;
+    text-align: center;
+    padding-top: 10px;
+}
+.skill_4 {
+    background-color: #B5BBB9;
+    text-align: center;
+    padding-top: 10px;
+}
+@media (min-width: 992px) {
+    .philosophy_container {
+        padding-top: 100px;
+    }
+}
